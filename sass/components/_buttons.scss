@@ -1,17 +1,51 @@
-.btn-primary {
+.btn {
     font-weight: var(--fw-bold);
-    font-size: 1.2rem;
-    line-height: normal;
-}
+    text-decoration: none;
 
-.btn-secondary {
-    font-weight: var(--fw-bold);
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    box-shadow: 0.2rem 0.3rem 0.6rem 0.1rem var(--color-pink-shadow);
+    
+    display: grid;
+    place-content: center;
 
-.btn-tertiary {
-    font-weight: var(--fw-bold);
-    font-size: 1rem;
-    line-height: normal;
+    &:hover {
+        background-color: var(--color-light-pink);
+    }
+
+    &--primary {
+        font-size: 1.2rem;
+        line-height: normal;
+
+        width: 24rem;
+        height: 4rem;
+        border-radius: 4rem;
+    }
+
+    &--secondary {
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+        width: 20rem;
+        height: 4rem;
+        border-radius: 4rem;
+    }
+
+    &--tertiary {
+        font-size: 1rem;
+        line-height: normal;
+        color: var(--color-very-dark-cyan);
+        background-color: var(--color-white);
+
+        width: 9.6rem;
+        height: 2.4rem;
+        border-radius: 2.4rem;
+
+        box-shadow: 0rem 0.2rem 0.7rem 0rem var(--color-black-shadow);
+
+        &:hover {
+            color: var(--color-grayish-blue);
+            background-color: var(--color-white);
+        }
+    }
 }

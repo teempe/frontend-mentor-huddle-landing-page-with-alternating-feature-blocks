@@ -1,11 +1,13 @@
 :root {
     --color-very-pale-cyan: #EDFBFF;
     --color-pink: #FF52C1;
+    --color-pink-shadow: #FF52C12B; // alpha 17%
     --color-light-pink: #FF9ADB;
     --color-very-dark-cyan: #00252E;
     --color-grayish-blue: #808E9A;
     --color-light-grayish-blue: #DFE4F0;
     --color-white: #FFF;
+    --color-black-shadow: #0000001A; // alpha 10%
 
     --ff-heading: 'Poppins', sans-serif;
     --ff-body: 'Open Sans', sans-serif;
