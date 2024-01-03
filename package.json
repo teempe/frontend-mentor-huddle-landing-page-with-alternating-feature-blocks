@@ -1,0 +1,16 @@
+{
+  "name": "huddle-landing-page-with-alternating-feature-blocks",
+  "version": "1.0.0",
+  "description": "Solution to the Frontend Mentor challenge - Huddle landing page with alternating feature blocks",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
+}
