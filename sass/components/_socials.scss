@@ -1,10 +1,8 @@
 .socials {
-    & > ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        column-gap: 1.25rem;
-    }
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
 
     &__link {
         text-decoration: none;

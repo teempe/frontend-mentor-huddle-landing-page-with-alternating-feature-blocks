@@ -7,19 +7,15 @@
         margin-bottom: 2.5rem;
     }
 
-    & nav:nth-of-type(1) {
+    &__nav-contacts {
         margin-bottom: 4.2rem;
     }
 
-    & nav:nth-of-type(2) {
-        margin-bottom: 1.6rem;
-    }
-
-    & nav:nth-of-type(3) {
+    &__nav-links {
         margin-bottom: 2.4rem;
     }
 
-    & nav:nth-of-type(4) {
+    &__nav-socials {
         margin-bottom: 2.4rem;
     }
 
@@ -27,5 +23,45 @@
         font-size: 1.1rem;
         line-height: normal;
         text-align: center;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 14.4rem 7.8rem 6.4rem 12rem;
+
+        display: grid;
+        grid-template-rows: auto 15.4rem auto;
+        grid-template-columns: 37.9rem 1fr minmax(26.2rem, max-content);
+        grid-template-areas: 
+            "logo logo logo"
+            "contacts links socials"
+            "contatcs . copyrights";
+
+        column-gap: 13rem;
+        
+            &__logo {
+                grid-area: logo;
+                margin-bottom: 3.2rem;
+            }
+        
+            &__nav-contacts {
+                grid-area: contacts;
+                margin-bottom: 0rem;
+            }
+        
+            &__nav-links {
+                grid-area: links;
+            }
+        
+            &__nav-socials {
+                grid-area: socials;
+                margin-bottom: 0rem;
+                justify-self: start;
+            }
+        
+            &__copyrights {
+                grid-area: copyrights;
+                justify-self: start;
+                font-size: 1.2rem;
+            }
     }
 }

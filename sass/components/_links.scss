@@ -1,10 +1,10 @@
 .links {
-    & > ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        row-gap: 1.6rem;
-    }
+    list-style: none;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1.6rem;
 
     &__link {
         text-decoration: none;
@@ -16,5 +16,9 @@
         &:hover {
             text-decoration: underline;
         }
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        row-gap: 1.2rem;
     }
 }

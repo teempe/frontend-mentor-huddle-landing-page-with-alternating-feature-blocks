@@ -8,4 +8,11 @@
         width: 17.6rem;
         height: 2.6rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        &--footer {
+            width: 15.2rem;
+            height: 2.4rem;
+        }
+    }
 }
