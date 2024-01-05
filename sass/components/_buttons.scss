@@ -48,4 +48,33 @@
             background-color: var(--color-white);
         }
     }
+    
+    @media only screen and (min-width: $bp-desktop) {
+        &--primary {
+            font-size: 1.4rem;
+
+            width: 28rem;
+            height: 5.6rem;
+            border-radius: 5.6rem;
+        }
+
+        &--secondary {
+            font-size: 2rem;
+            line-height: 3rem;
+
+            width: 40rem;
+            height: 8rem;
+            border-radius: 8rem;
+        }
+
+        &--tertiary {
+            font-size: 1.4rem;
+
+            width: 20rem;
+            height: 4.8rem;
+            border-radius: 4.8rem;
+
+            box-shadow: 0rem 0.3rem 1.1rem 0rem var(--color-black-shadow);
+        }
+    }
 }
