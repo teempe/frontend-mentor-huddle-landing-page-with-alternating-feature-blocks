@@ -6,7 +6,7 @@
     @media only screen and (min-width: $bp-desktop) {
         grid-template-rows: repeat(3, 44rem);
 
-        & .feature-card:nth-child(odd) {
+        & .feature-card:nth-child(even) {
             flex-direction: row-reverse;
         }
     }
