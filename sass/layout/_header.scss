@@ -1,5 +1,5 @@
 .header {
-    background: var(--color-very-pale-cyan) url("../../images/bg-hero-mobile.svg");
+    background: var(--color-very-pale-cyan) url("../images/bg-hero-mobile.svg");
     padding: 2.6rem 1.6rem 3.7rem;
     color: var(--color-very-dark-cyan);
 
@@ -11,7 +11,7 @@
     }
 
     @media only screen and (min-width: $bp-desktop) {
-        background: var(--color-very-pale-cyan) url("../../images/bg-hero-desktop.svg");
+        background: var(--color-very-pale-cyan) url("../images/bg-hero-desktop.svg");
         padding: 5rem 8rem 7.1rem;
     
         &__top-bar {

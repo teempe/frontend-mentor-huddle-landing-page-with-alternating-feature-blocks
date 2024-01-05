@@ -9,6 +9,8 @@
     display: grid;
     place-content: center;
 
+    transition: all 0.25s ease-out;
+
     &:hover {
         background-color: var(--color-light-pink);
     }
