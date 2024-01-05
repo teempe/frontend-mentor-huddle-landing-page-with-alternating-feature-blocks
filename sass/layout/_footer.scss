@@ -8,7 +8,7 @@
     }
 
     &__nav-contacts {
-        margin-bottom: 4.2rem;
+        margin-bottom: 4.1rem;
     }
 
     &__nav-links {
@@ -21,7 +21,7 @@
 
     &__copyrights {
         font-size: 1.1rem;
-        line-height: normal;
+        line-height: 1.7rem;
         text-align: center;
     }
 
@@ -29,8 +29,9 @@
         padding: 14.4rem 7.8rem 6.4rem 12rem;
 
         display: grid;
-        grid-template-rows: auto 15.4rem auto;
-        grid-template-columns: 37.9rem 1fr minmax(26.2rem, max-content);
+        grid-template-rows: auto 13.7rem auto;
+        grid-template-columns: 37.9rem 1fr 26.2rem;
+
         grid-template-areas: 
             "logo logo logo"
             "contacts links socials"
