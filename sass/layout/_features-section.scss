@@ -1,0 +1,9 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+    & > * {
+        flex: 0 0 48.8rem;
+    }
+}
