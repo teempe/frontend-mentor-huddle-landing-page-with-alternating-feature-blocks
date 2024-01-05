@@ -1,16 +1,10 @@
 .features {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(3, 48.8rem);
     row-gap: 4rem;
 
-    & > * {
-        flex: 0 0 48.8rem;
-    }
-
     @media only screen and (min-width: $bp-desktop) {
-        & > * {
-            flex: 0 0 44rem;
-        }
+        grid-template-rows: repeat(3, 44rem);
 
         & .feature-card:nth-child(odd) {
             flex-direction: row-reverse;
