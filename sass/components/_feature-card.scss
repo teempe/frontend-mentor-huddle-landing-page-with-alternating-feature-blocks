@@ -20,4 +20,22 @@
         align-items: center;
         row-gap: 1.6rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 5.4rem 3.2rem 5.4rem 12rem;
+
+        flex-direction: row;
+        align-items: center;
+        column-gap: 18.5rem;
+
+        &__img {
+            margin: 0rem;
+            flex: 0 0 40rem;
+        }
+    
+        &__content {
+            text-align: left;
+            align-items: flex-start;
+        }
+    }
 }
